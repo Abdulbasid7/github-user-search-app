@@ -12,18 +12,23 @@ const App = () => {
     color: theme === "light" ? "black" : "white",
   };
   return (
+    
     <main style={backgroundColor}>
+      <div>
+      <h2 className="text-center text-3xl display:flex">Github Profile Finder</h2>
+      
       <button
         onClick={handleThemeChange}
-        className="text-black hover:text-blue-500 focus:outline-none border "
+        className="text-black hover:text-blue-500 focus:outline-none "
       >
-        Toggle
+        
         {theme === "light" ? (
           <HiOutlineMoon className="w-6 h-6" /> // Moon icon for light theme
         ) : (
           <HiOutlineSun className="w-6 h-6" /> // Sun icon for dark theme
         )}
       </button>
+      </div>
 
       <div>
         <GithubProfileFinder />

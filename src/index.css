@@ -32,6 +32,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+ 
 }
 
 h1 {
@@ -116,7 +117,7 @@ button:focus-visible {
     font-weight: bold;
 }
 
-.profile-info div {
+.profile-info  {
     display: flex ;
     justify-content: center ;
     gap: 20px;

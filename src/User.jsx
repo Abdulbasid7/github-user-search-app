@@ -13,6 +13,7 @@ export default function user({ user }) {
     const createdDate = new Date(created_at);
   
     return (
+      
       <div className="user">
         <div>
           <img src={avatar_url} className="avatar" alt="User" />

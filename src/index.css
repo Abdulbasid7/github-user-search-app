@@ -109,12 +109,19 @@ button:focus-visible {
     gap: 20px;
     justify-content: center;
     margin-top: 20px;
+    
 }
 
 .name-container p{
     margin: 0px;
     font-size: 20px;
     font-weight: bold;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: #0be6e2;
+    
+   
+
 }
 
 .profile-info  {
@@ -123,6 +130,9 @@ button:focus-visible {
     gap: 20px;
     font-size: 20px;
     font-weight: bold;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: #0be6e2;
 }
 @media (prefers-color-scheme: light) {
   :root {
